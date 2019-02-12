@@ -7,7 +7,7 @@ provider:
 # Overwrite defaults
   memorySize: 512 # overwrite default memory of 1024
   versionFunctions: false # don't create a new function version with each deploy
-  region: us-west-2 # override default region us-east-1
+  region: ap-southeast-2 # override default region ap-southeast-2
 
 # Service-wide environment variables
   environment:
@@ -24,7 +24,7 @@ provider:
         - dynamodb:PutItem
         - dynamodb:UpdateItem
         - dynamodb:DeleteItem
-      Resource: "arn:aws:dynamodb:us-west-2:*:*"
+      Resource: "arn:aws:dynamodb:ap-southeast-2:*:*"
 
 # Define our lambda functions and the events they respond to
 functions:
