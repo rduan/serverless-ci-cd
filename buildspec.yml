@@ -31,7 +31,7 @@ phases:
   post_build:
     commands:
       # tear down integration testing environment
-      # - serverless remove --stage test -v
+      - serverless remove --stage test -v
 
 artifacts:
   files:

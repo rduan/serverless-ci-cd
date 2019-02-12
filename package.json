@@ -19,22 +19,22 @@
   },
   "homepage": "https://github.com/1Strategy/serverless-ci-cd#readme",
   "devDependencies": {
-    "eslint": "^4.9.0",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jest": "^21.5.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.5.1",
-    "jest": "^22.0.3",
-    "serverless-dynamodb-local": "^0.2.26",
-    "serverless-offline": "^3.25.8",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.2.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.1.0",
+    "serverless-dynamodb-local": "^0.2.36",
+    "serverless-offline": "^4.4.0",
     "serverless-stack-output": "^0.2.3",
-    "supertest": "^3.0.0"
+    "supertest": "^3.4.2"
   },
   "dependencies": {
     "serverless-dynamodb-client": "0.0.2",
-    "uuid": "^3.1.0"
+    "uuid": "^3.3.2"
   },
   "jest": {
     "verbose": true,
