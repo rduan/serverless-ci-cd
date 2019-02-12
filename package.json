@@ -28,12 +28,16 @@
     "eslint-plugin-react": "^7.5.1",
     "jest": "^22.0.3",
     "serverless-dynamodb-local": "^0.2.26",
-    "serverless-offline": "^3.16.0",
+    "serverless-offline": "^3.25.8",
     "serverless-stack-output": "^0.2.3",
     "supertest": "^3.0.0"
   },
   "dependencies": {
     "serverless-dynamodb-client": "0.0.2",
     "uuid": "^3.1.0"
-  }
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost:3000/"
+    }
 }
