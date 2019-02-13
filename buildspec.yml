@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   parameter-store:
-    buildNumber: '/build-number/x-test'
+    buildNumber: '/build-number/x-sls-test'
 
 phases:
   install:
